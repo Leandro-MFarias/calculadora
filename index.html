@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+
+    <title>Calculadora</title>
+</head>
+
+<body class="bg-zinc-700">
+    <main class="flex flex-col space-y-4 items-center justify-center h-screen">
+        <h1 class="text-zinc-100 text-6xl">Calculadora</h1>
+        <div class="bg-zinc-900 w-[470px] h-[540px] rounded-md">
+            <div id="result" class="w-full h-24 text-zinc-50 flex items-end justify-end space-x-6 px-3 pb-3">
+            </div>
+            <div class="w-full grid grid-cols-4 grid-rows-5 gap-3 p-2 text-zinc-100 justify-center items-center">
+                <button id="C" class="bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">C</button>
+                <button id="%" class="change bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">%</button>
+                <button id="/" class="change bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">/</button>
+                <button id="erase" class="bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">Delete</button>
+                <button id="7" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">7</button>
+                <button id="8" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">8</button>
+                <button id="9" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">9</button>
+                <button id="x" class="change bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">x</button>
+                <button id="4" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">4</button>
+                <button id="5" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">5</button>
+                <button id="6" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">6</button>
+                <button id="-" class="change bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">-</button>
+                <button id="1" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">1</button>
+                <button id="2" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">2</button>
+                <button id="3" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">3</button>
+                <button id="+" class="change bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">+</button>
+                <button></button>
+                <button id="0" class="btn bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">0</button>
+                <button id="," class="bg-zinc-800 p-2 py-6 flex justify-center rounded-sm text-xl hover:bg-zinc-600">,</button>
+                <button id="calc" class="bg-sky-500 p-2 py-6 flex justify-center rounded-sm text-xl">=</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
